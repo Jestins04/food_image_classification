@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-utensils"></i> Recipe Finder
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/user/register"><i class="fas fa-user-plus"></i> Register</a></li>
+            <li><a href="/user/login"><i class="fas fa-sign-in-alt"></i> User Login</a></li>
+            <li><a href="/admin/login"><i class="fas fa-lock"></i> Admin</a></li>
+
+            {% if session.get('user') %}
+            <li><a href="/user/dashboard"><i class="fas fa-image"></i> Dashboard</a></li>
+            <li><a href="/user/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            {% endif %}
+
+            {% if session.get('admin') %}
+            <li><a href="/admin/dashboard"><i class="fas fa-chart-line"></i> Admin Panel</a></li>
+            <li><a href="/admin/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</header>
+
+<div class="main-container">
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for msg in messages %}
+          <div class="flash">{{ msg }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+</div>
+
+<footer>
+    <p>© 2026 Recipe Finder | AI Recipe Prediction System</p>
+</footer>
+
+</body>
+</html>

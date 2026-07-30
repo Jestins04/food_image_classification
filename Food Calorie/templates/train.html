@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Image Processing Pipeline</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .gallery {
+            display: none;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            background: white;
+        }
+
+        .active {
+            display: flex;
+        }
+
+        .step-indicator {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🍽️ Food Image Processing Pipeline</h1>
+<div class="step-indicator" id="stepText"></div>
+
+<!-- STEP 1 -->
+<div class="gallery active" id="step0">
+    {% for img in grayscale %}
+    <img src="{{ url_for('static', filename='preprocessed/' + img) }}">
+    {% endfor %}
+</div>
+
+<!-- STEP 2 -->
+<div class="gallery" id="step1">
+    {% for img in binary %}
+    <img src="{{ url_for('static', filename='binary/' + img) }}">
+    {% endfor %}
+</div>
+
+<!-- STEP 3 -->
+<div class="gallery" id="step2">
+    {% for img in segmented %}
+    <img src="{{ url_for('static', filename='segmented/' + img) }}">
+    {% endfor %}
+</div>
+
+<!-- STEP 4 -->
+<div class="gallery" id="step3">
+    {% for img in features %}
+    <img src="{{ url_for('static', filename='features/' + img) }}">
+    {% endfor %}
+</div>
+
+<script>
+    const steps = [
+        { id: "step0", text: "Step 1: Grayscale & Resize" },
+        { id: "step1", text: "Step 2: Binarization (OTSU)" },
+        { id: "step2", text: "Step 3: Segmentation" },
+        { id: "step3", text: "Step 4: Feature Extraction (Line Overlay)" }
+    ];
+
+    let currentStep = 0;
+    const stepText = document.getElementById("stepText");
+
+    function showStep(index) {
+        steps.forEach((step, i) => {
+            document.getElementById(step.id).classList.remove("active");
+        });
+
+        document.getElementById(steps[index].id).classList.add("active");
+        stepText.innerText = steps[index].text;
+    }
+
+    showStep(0);
+
+    setInterval(() => {
+        currentStep = (currentStep + 1) % steps.length;
+        showStep(currentStep);
+    }, 10000); // ⏱️ 10 seconds per step
+</script>
+
+</body>
+</html>

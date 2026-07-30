@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Prediction Result</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="../static/assets/img/favicon.ico" rel="icon">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<link href="../static/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="../static/assets/css/style.css" rel="stylesheet">
+
+<style>
+body{ margin:0; font-family:Poppins; }
+
+.page-header{ padding-top:140px; }
+
+.product-layout{ min-height: calc(100vh - 200px); }
+
+/* Sidebar */
+.sidebar{
+    background: linear-gradient(180deg,#111,#222);
+    padding:25px 15px;
+    min-height:100%;
+}
+
+.sidebar h4{ color:#fff; text-align:center; }
+
+.sidebar a{
+    display:flex;
+    align-items:center;
+    color:#ddd;
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:10px;
+    text-decoration:none;
+}
+.sidebar a:hover{ background:#ff9f0d; color:#000; }
+
+/* Content */
+.products-area{ padding:30px; }
+
+/* Result Card */
+.result-card{
+    background: linear-gradient(135deg,#fff,#fdf3e6);
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.25);
+    margin-bottom:30px;
+}
+
+.result-card h2{
+    text-align:center;
+    background: linear-gradient(90deg,#ff9f0d,#ff4d4d,#6f42c1);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* Image */
+.result-img{
+    display:block;
+    margin:15px auto 25px;
+    width:300px;
+    border-radius:15px;
+}
+
+/* Grid layout */
+.info-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+}
+
+/* Full width blocks */
+.full-width{
+    grid-column: span 2;
+}
+
+/* Field style */
+.info-box{
+    background:#fff;
+    padding:10px;
+    border-radius:10px;
+    font-size:14px;
+}
+
+.info-box b{
+    color:#ff6f00;
+}
+
+/* Back button */
+.back-btn{
+    display:block;
+    margin:20px auto;
+    padding:10px 25px;
+    background:#ff9f0d;
+    border-radius:30px;
+    text-align:center;
+    width:200px;
+    text-decoration:none;
+    color:#000;
+    font-weight:600;
+}
+/* 🔥 NEW: Health Recommendation Card */
+.recommend-box{
+    background: linear-gradient(135deg,#e8f5e9,#ffffff);
+    padding:15px;
+    border-radius:15px;
+    margin-top:20px;
+    border-left:6px solid #28a745;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.recommend-box h4{
+    margin-bottom:8px;
+    color:#2e7d32;
+    font-weight:600;
+}
+
+.recommend-box p{
+    font-size:14px;
+    line-height:1.6;
+    color:#333;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark fixed-top px-4">
+    <a href="/" class="navbar-brand text-warning">RecipeNet</a>
+</nav>
+
+<!-- Header -->
+<div class="container-fluid page-header text-center text-white bg-dark">
+    <h1>Prediction Result</h1>
+</div>
+
+<div class="container-fluid bg-light">
+<div class="row product-layout">
+
+<!-- Sidebar -->
+<div class="col-lg-2">
+    <div class="sidebar">
+        <h4>User Menu</h4>
+        <a href="/user/dashboard"><i class="fa fa-home"></i> Dashboard</a>
+        <a href="/logout"><i class="fa fa-sign-out-alt"></i> Logout</a>
+    </div>
+</div>
+
+<!-- Main -->
+<div class="col-lg-10 products-area">
+
+<div class="text-center mb-4">
+    <h2>🍽️ Recipe Result</h2>
+</div>
+
+<!-- ================= SINGLE RESULT ================= -->
+{% if r is not none %}
+<div class="result-card">
+
+<h2>{{ r.recipe_name }}</h2>
+
+{% if img %}
+<img src="/static/uploads/{{ img }}" class="result-img">
+{% endif %}
+
+<div class="info-grid">
+
+<div class="info-box"><b>Category:</b> {{ r.category }}</div>
+
+<div class="info-box"><b>Cuisine:</b> {{ r.cuisine_type }}</div>
+<div class="info-box"><b>Meal:</b> {{ r.meal_type }}</div>
+
+<div class="info-box"><b>Type:</b> {{ r.veg_nonveg }}</div>
+<div class="info-box"><b>Difficulty:</b> {{ r.difficulty_level }}</div>
+
+<div class="info-box"><b>Prep Time:</b> {{ r.prep_time_min }} min</div>
+<div class="info-box"><b>Cook Time:</b> {{ r.cook_time_min }} min</div>
+
+<div class="info-box"><b>Calories:</b> {{ r.calories_per_serving }}</div>
+<div class="info-box"><b>Spicy:</b> {{ r.spicy_level }}</div>
+
+<div class="info-box"><b>Gluten:</b> {{ r.contains_gluten }}</div>
+<div class="info-box"><b>Dairy:</b> {{ r.contains_dairy }}</div>
+
+<div class="info-box"><b>Eggs:</b> {{ r.contains_eggs }}</div>
+<div class="info-box"><b>Nuts:</b> {{ r.contains_nuts }}</div>
+
+<div class="info-box"><b>Shellfish:</b> {{ r.contains_shellfish }}</div>
+<div class="info-box"><b>Soy:</b> {{ r.contains_soy }}</div>
+
+<div class="info-box"><b>Seafood:</b> {{ r.contains_seafood }}</div>
+<div class="info-box"><b>Red Meat:</b> {{ r.contains_red_meat }}</div>
+
+<div class="info-box"><b>Diabetic Friendly:</b> {{ r.diabetic_friendly }}</div>
+<div class="info-box"><b>Heart Friendly:</b> {{ r.heart_friendly }}</div>
+
+<div class="info-box full-width">
+<b>Ingredients:</b><br>{{ r.ingredients }}
+</div>
+
+<div class="info-box full-width">
+<b>Instructions:</b><br>{{ r.instructions }}
+</div>
+
+</div>
+<!-- 🔥 HEALTH RECOMMENDATION -->
+{% if food_info %}
+<div class="recommend-box">
+    <h4>🍀 Health Recommendation</h4>
+    <p>{{ food_info }}</p>
+</div>
+{% endif %}
+</div>
+{% endif %}
+
+<!-- ================= MULTIPLE RESULTS ================= -->
+{% if recipes %}
+{% for item in recipes %}
+<div class="result-card">
+
+<h2>{{ item.recipe_name }}</h2>
+
+<div class="info-grid">
+
+<div class="info-box"><b>Category:</b> {{ item.category }}</div>
+<div class="info-box"><b>Cuisine:</b> {{ item.cuisine_type }}</div>
+
+<div class="info-box"><b>Meal:</b> {{ item.meal_type }}</div>
+<div class="info-box"><b>Type:</b> {{ item.veg_nonveg }}</div>
+
+<div class="info-box full-width">
+<b>Ingredients:</b><br>{{ item.ingredients }}
+</div>
+
+<div class="info-box full-width">
+<b>Instructions:</b><br>{{ item.instructions }}
+</div>
+
+</div>
+<!-- 🔥 HEALTH RECOMMENDATION -->
+{% if item.food_info %}
+<div class="recommend-box">
+    <h4>🍀 Health Info</h4>
+    <p>{{ item.food_info }}</p>
+</div>
+{% endif %}
+</div>
+{% endfor %}
+{% endif %}
+
+<a href="/user/dashboard" class="back-btn">⬅ Back</a>
+
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-dark text-light text-center py-3">
+    <p>&copy; RecipeNet</p>
+</div>
+
+</body>
+</html>

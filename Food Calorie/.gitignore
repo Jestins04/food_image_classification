@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+venv/
+.venv/
+static/uploads/
+testing/uploads/
+model_swin.pth

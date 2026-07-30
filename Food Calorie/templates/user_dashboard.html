@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>User Dashboard</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="../static/assets/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../static/assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../static/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../static/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../static/assets/css/style.css" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* Layout */
+.product-layout {
+    min-height: calc(100vh - 200px);
+}
+
+/* Sidebar */
+.sidebar {
+    background: linear-gradient(180deg,#111,#222);
+    min-height: 100%;
+    padding: 25px 15px;
+}
+
+.sidebar h4 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    color: #ddd;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+    color: #ff9f0d;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: linear-gradient(135deg,#ff9f0d,#ff7b00);
+    color: #000;
+}
+
+/* Content */
+.products-area {
+    padding: 30px;
+}
+
+/* Cards */
+.dashboard-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+    border-top: 5px solid #ff9f0d;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Buttons */
+.btn-custom {
+    background: linear-gradient(135deg,#ff9f0d,#ff7b00);
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+}
+
+/* Input */
+input[type="text"], input[type="file"] {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Topbar Start -->
+<div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn">
+    <div class="row gx-0 align-items-center d-none d-lg-flex">
+        <div class="col-lg-6 px-5 text-start">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="small text-light" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="small text-light" href="#">Career</a></li>
+                <li class="breadcrumb-item"><a class="small text-light" href="#">Terms</a></li>
+                <li class="breadcrumb-item"><a class="small text-light" href="#">Privacy</a></li>
+            </ol>
+        </div>
+        <div class="col-lg-6 px-5 text-end">
+            <small>Follow us:</small>
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn-lg-square text-primary pe-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn">
+    <a href="/" class="navbar-brand ms-4 ms-lg-0">
+        <h1 class="text-primary m-0">RecipeNet</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto p-4 p-lg-0">
+            <a href="/" class="nav-item nav-link">Home</a>
+            <a href="/admin/login" class="nav-item nav-link">Admin</a>
+            <a href="/user/login" class="nav-item nav-link active">User</a>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Page Header -->
+<div class="container-fluid page-header py-6">
+    <div class="container text-center pt-5 pb-3">
+        <h1 class="display-4 text-white mb-3">User Dashboard</h1>
+    </div>
+</div>
+<!-- Dashboard -->
+<div class="container-fluid bg-light">
+    <div class="row product-layout">
+
+        <!-- Sidebar -->
+        <div class="col-lg-2">
+            <div class="sidebar">
+                <h4>User Menu</h4>
+                <a href="#" class="active"><i class="fa fa-home"></i> Dashboard</a>
+                <a href="/logout"><i class="fa fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="col-lg-10 products-area">
+
+            <div class="section-title">
+                <h2>🍽️ Recipe Prediction System</h2>
+                <p>Upload image OR enter ingredients to discover recipes</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- IMAGE PREDICTION -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="dashboard-card">
+                        <h4><i class="fas fa-camera"></i> Image to Recipe</h4>
+                        <p>Upload food image to detect dish</p>
+
+                        <form action="/predict" method="POST" enctype="multipart/form-data">
+                            <input type="file" name="image" required class="form-control mb-3">
+                            <button type="submit" class="btn-custom w-100">
+                                Predict Dish
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- TEXT PREDICTION -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="dashboard-card">
+                        <h4><i class="fas fa-utensils"></i> Ingredients to Recipe</h4>
+                        <p>Enter ingredients (comma separated)</p>
+
+                        <form action="/predict_text" method="POST">
+                            <input type="text" name="ingredients" 
+                                   placeholder="e.g. chicken, rice, onion" 
+                                   required class="form-control mb-3">
+
+                            <button type="submit" class="btn-custom w-100">
+                                Find Recipes
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-dark text-light text-center py-3">
+    <p class="mb-0">&copy; RecipeNet | Smart Food AI System</p>
+</div>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../static/assets/lib/wow/wow.min.js"></script>
+<script src="../static/assets/lib/easing/easing.min.js"></script>
+<script src="../static/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="../static/assets/lib/counterup/counterup.min.js"></script>
+<script src="../static/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

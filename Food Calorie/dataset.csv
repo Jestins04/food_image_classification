@@ -1,0 +1,984 @@
+id,recipe_name,category,cuisine_type,meal_type,veg_nonveg,ingredients,instructions,prep_time_min,cook_time_min,difficulty_level,calories_per_serving,contains_gluten,contains_dairy,contains_eggs,contains_nuts,contains_shellfish,contains_soy,contains_seafood,contains_red_meat,spicy_level,diabetic_friendly,heart_friendly,image_class_label,image_folder_name,keywords
+1,Chicken Biryani,Indian,North Indian,Lunch/Dinner,non-veg,"2 cups basmati rice
+500 g chicken pieces
+1 cup yogurt
+2 sliced onions
+1 tbsp garam masala
+3 tbsp cooking oil
+Salt to taste","Wash and soak basmati rice for about 20 minutes and marinate chicken with yogurt, spices, and salt.
+Cook the rice until it is about 70 percent done and set it aside.
+In a large pot sauté onions in oil until golden and cook the marinated chicken until tender.
+Layer the partially cooked rice over the chicken, cover tightly and cook on low heat for dum cooking.",30,40,medium,550,yes,yes,no,no,no,no,no,yes,hot,no,no,chicken_biryani,chicken_biryani,"biryani,chicken,spicy"
+
+2,Mutton Biryani,Indian,North Indian,Lunch/Dinner,non-veg,"2 cups basmati rice
+500 g mutton pieces
+1 cup yogurt
+2 chopped onions
+Mixed biryani spices
+3 tbsp cooking oil
+Salt to taste","Wash and soak the basmati rice and marinate mutton with yogurt and spices for at least 30 minutes.
+Pressure cook the mutton with spices until it becomes tender and flavorful.
+Cook rice separately until partially done and prepare a spiced onion base.
+Layer mutton and rice together and cook on low heat so the flavors combine well.",40,60,hard,650,yes,yes,no,no,no,no,no,yes,hot,no,no,mutton_biryani,mutton_biryani,"biryani,mutton,spicy"
+
+3,Idli,Indian,South Indian,Breakfast,veg,"2 cups idli rice
+1 cup urad dal
+1 tsp salt
+Water as required","Soak rice and urad dal separately for at least 4 hours.
+Grind them into a smooth batter and mix with salt before allowing it to ferment overnight.
+Grease idli molds and pour the fermented batter into the molds.
+Steam the idlis for about 10 minutes until soft and fluffy.",15,10,easy,120,no,no,no,no,no,no,no,no,mild,yes,yes,idli,idli,"steamed,breakfast"
+
+4,Dosa,Indian,South Indian,Breakfast,veg,"2 cups dosa rice
+1 cup urad dal
+2 tbsp oil
+Salt to taste","Soak rice and urad dal for several hours and grind them into a smooth batter.
+Allow the batter to ferment overnight so it becomes airy and flavorful.
+Heat a dosa tawa and spread a ladle of batter thinly across the surface.
+Drizzle oil around the edges and cook until the dosa turns golden and crisp.",20,15,medium,180,no,no,no,no,no,no,no,no,mild,yes,yes,dosa,dosa,"crispy,breakfast"
+
+5,Chicken 65,Indian,South Indian,Snack,non-veg,"500 g chicken pieces
+1/2 cup yogurt
+2 tsp red chili powder
+Curry leaves
+Oil for frying
+Salt to taste","Marinate chicken with yogurt, chili powder, and salt for at least 30 minutes.
+Heat oil in a deep pan and fry the marinated chicken pieces until crispy.
+In another pan sauté curry leaves and spices for tempering.
+Add the fried chicken to the tempering and toss well before serving.",20,15,medium,320,no,yes,no,no,no,no,no,no,hot,no,no,chicken_65,chicken_65,"fried,chicken,spicy"
+
+6,Sambar Rice,Indian,South Indian,Lunch,veg,"1 cup rice
+1/2 cup toor dal
+Mixed vegetables like carrot and beans
+1 tbsp tamarind paste
+2 tbsp sambar powder","Cook rice and toor dal separately until soft.
+Prepare sambar by boiling vegetables with tamarind paste and sambar powder.
+Add cooked dal to the sambar mixture and simmer for a few minutes.
+Mix the cooked rice with the prepared sambar and serve hot.",15,20,easy,250,no,no,no,no,no,no,no,no,medium,yes,yes,sambar_rice,sambar_rice,"rice,dal"
+
+7,Lemon Rice,Indian,South Indian,Lunch,veg,"2 cups cooked rice
+1 fresh lemon juice
+2 tbsp roasted peanuts
+1 tsp mustard seeds
+2 tbsp cooking oil","Heat oil in a pan and add mustard seeds until they start to splutter.
+Add peanuts and sauté them lightly until golden.
+Mix the cooked rice with lemon juice and salt in a bowl.
+Combine the tempering with the rice and mix gently before serving.",10,10,easy,220,no,no,no,yes,no,no,no,no,mild,yes,yes,lemon_rice,lemon_rice,"rice,lemon"
+
+8,Tomato Rice,Indian,South Indian,Lunch,veg,"2 cups cooked rice
+2 chopped tomatoes
+1 tsp chili powder
+1 tsp garam masala
+2 tbsp oil","Heat oil in a pan and sauté tomatoes with spices until soft and pulpy.
+Cook the mixture until the oil separates and forms a thick masala.
+Add cooked rice to the tomato masala and mix gently.
+Cook for a few minutes so the flavors combine before serving.",15,15,easy,230,no,no,no,no,no,no,no,no,medium,yes,yes,tomato_rice,tomato_rice,"rice,tomato"
+
+9,Vegetable Kurma,Indian,South Indian,Lunch,veg,"2 cups mixed vegetables
+1/2 cup coconut paste
+1 tsp garam masala
+1 onion chopped
+2 tbsp oil","Heat oil in a pan and sauté onions until translucent.
+Add mixed vegetables and cook them for a few minutes.
+Mix coconut paste and spices into the vegetables to create a thick gravy.
+Simmer the curry until vegetables are tender and flavors blend well.",20,20,medium,260,no,no,no,no,no,no,no,no,medium,yes,yes,veg_kurma,veg_kurma,"veg,curry"
+
+10,Paneer Butter Masala,Indian,North Indian,Dinner,veg,"250 g paneer cubes
+2 tomatoes pureed
+2 tbsp butter
+1/2 cup cream
+1 tsp garam masala","Heat butter in a pan and sauté tomato puree with spices.
+Cook the gravy until it becomes thick and aromatic.
+Add paneer cubes and simmer gently in the gravy.
+Finish with cream and cook briefly before serving.",20,20,medium,420,no,yes,no,no,no,no,no,no,medium,no,no,paneer_butter_masala,paneer_butter_masala,"paneer,curry"
+
+11,Chole Bhature,Indian,North Indian,Lunch,veg,"2 cups chickpeas soaked overnight
+2 cups all purpose flour
+1/2 cup yogurt
+2 tbsp cooking oil
+1 onion finely chopped
+1 tbsp chole masala
+Salt to taste","Soak chickpeas overnight and pressure cook them until soft and tender.
+Heat oil in a pan and sauté onions with spices until fragrant, then add the cooked chickpeas and simmer to form a thick curry.
+Prepare dough using flour, yogurt, salt and water, and allow it to rest for 30 minutes.
+Roll small discs from the dough and deep fry them in hot oil until puffed and golden, then serve hot with the chole.",30,30,hard,500,yes,yes,no,no,no,no,no,no,medium,no,no,chole_bhature,chole_bhature,"chickpea,fried"
+
+12,Rajma Chawal,Indian,North Indian,Lunch,veg,"1 cup rajma beans soaked overnight
+2 cups cooked basmati rice
+2 tomatoes finely chopped
+1 onion chopped
+1 tsp garam masala
+2 tbsp cooking oil","Soak rajma beans overnight and pressure cook them until soft.
+In a pan heat oil and sauté onions and tomatoes with spices until the mixture forms a thick masala.
+Add cooked rajma with some water and simmer the curry so the flavors blend well.
+Serve the hot rajma curry over freshly cooked basmati rice.",20,30,medium,430,no,no,no,no,no,no,no,no,medium,yes,yes,rajma_chawal,rajma_chawal,"beans,rice"
+
+13,Palak Paneer,Indian,North Indian,Dinner,veg,"2 cups fresh spinach leaves
+200 g paneer cubes
+1/2 cup fresh cream
+1 onion chopped
+1 tsp garam masala
+2 tbsp oil","Blanch spinach leaves in boiling water and blend them into a smooth green puree.
+Heat oil in a pan and sauté onions and spices until aromatic.
+Add the spinach puree and cook for a few minutes until it thickens.
+Add paneer cubes and cream, simmer briefly and serve hot.",15,20,medium,350,no,yes,no,no,no,no,no,no,mild,yes,yes,palak_paneer,palak_paneer,"spinach,paneer"
+
+14,Aloo Paratha,Indian,North Indian,Breakfast,veg,"2 cups whole wheat flour
+2 boiled potatoes mashed
+1 tsp cumin seeds
+1 tsp chili powder
+2 tbsp butter
+Salt to taste","Prepare a soft dough using whole wheat flour, salt, and water and allow it to rest.
+Mix mashed potatoes with spices and herbs to prepare the filling.
+Stuff the potato mixture inside small dough balls and roll them into flat parathas.
+Cook the parathas on a hot tawa with butter until golden brown on both sides.",20,15,medium,300,yes,yes,no,no,no,no,no,no,mild,no,no,aloo_paratha,aloo_paratha,"bread,potato"
+
+15,Poori Masala,Indian,South Indian,Breakfast,veg,"2 cups wheat flour
+3 boiled potatoes
+1 onion sliced
+1 tsp mustard seeds
+2 tbsp cooking oil
+Salt to taste","Prepare a stiff dough with wheat flour, salt, and water and rest it for 15 minutes.
+Roll small discs from the dough and deep fry them in hot oil until puffed and golden.
+In another pan prepare potato masala by sautéing mustard seeds, onions, and spices.
+Add mashed potatoes and cook briefly before serving with hot pooris.",15,15,medium,350,yes,no,no,no,no,no,no,no,mild,no,no,poori_masala,poori_masala,"fried,breakfast"
+
+16,Upma,Indian,South Indian,Breakfast,veg,"1 cup semolina (rava)
+1/2 cup mixed vegetables
+1 tsp mustard seeds
+2 tbsp cooking oil
+1 green chili chopped
+Salt to taste","Dry roast the semolina in a pan until it becomes aromatic and lightly golden.
+Heat oil in another pan and add mustard seeds, green chilies, and vegetables.
+Add water and bring it to a boil before slowly adding the roasted semolina.
+Stir continuously until the mixture thickens and the upma becomes soft and fluffy.",10,15,easy,200,yes,no,no,no,no,no,no,no,mild,yes,yes,upma,upma,"semolina,light"
+
+17,Pongal,Indian,South Indian,Breakfast,veg,"1 cup rice
+1/2 cup moong dal
+1 tsp black pepper
+2 tbsp ghee
+1 tsp cumin seeds
+Salt to taste","Dry roast moong dal lightly until aromatic.
+Cook rice and dal together in water until soft and mushy.
+Heat ghee in a pan and sauté cumin seeds and black pepper.
+Mix the tempering with the cooked rice and dal mixture and serve hot.",10,20,easy,250,no,yes,no,no,no,no,no,no,mild,yes,yes,pongal,pongal,"rice,comfort"
+
+18,Vada,Indian,South Indian,Snack,veg,"1 cup urad dal
+1 tsp black pepper
+1 green chili chopped
+Oil for deep frying
+Salt to taste","Soak urad dal for a few hours and grind it into a thick batter.
+Add chopped chilies, pepper, and salt to the batter and mix well.
+Shape small doughnut shaped vadas using wet hands.
+Deep fry them in hot oil until crisp and golden brown.",20,15,medium,280,no,no,no,no,no,no,no,no,mild,no,no,vada,vada,"fried,snack"
+
+19,Fish Curry,Indian,South Indian,Lunch,non-veg,"500 g fish pieces
+1 tbsp tamarind paste
+2 tomatoes chopped
+1 onion sliced
+2 tbsp cooking oil
+1 tsp chili powder","Heat oil in a pan and sauté onions and tomatoes with spices until soft.
+Add tamarind paste and water to create a tangy curry base.
+Place the fish pieces gently into the simmering gravy.
+Cook on medium heat until the fish becomes tender and the flavors combine well.",15,20,medium,300,no,no,no,no,no,no,yes,no,medium,yes,yes,fish_curry,fish_curry,"seafood,curry"
+
+20,Prawn Fry,Indian,South Indian,Snack,non-veg,"400 g cleaned prawns
+1 tsp chili powder
+1 tsp turmeric powder
+2 tbsp cooking oil
+1 tsp garlic paste
+Salt to taste","Marinate the prawns with chili powder, turmeric, garlic paste, and salt for 20 minutes.
+Heat oil in a pan and add the marinated prawns.
+Cook the prawns on medium heat until they turn golden and slightly crisp.
+Stir occasionally to coat them well with spices and serve hot.",15,10,easy,280,no,no,no,no,yes,no,no,no,hot,no,no,prawn_fry,prawn_fry,"seafood,spicy"
+
+21,Egg Curry,Indian,North Indian,Lunch,non-veg,"4 boiled eggs
+2 tomatoes finely chopped
+1 onion chopped
+1 tsp garam masala
+2 tbsp cooking oil
+Salt to taste","Boil the eggs until firm, peel the shells, and keep them aside.
+Heat oil in a pan and sauté chopped onions and tomatoes with spices until the mixture becomes thick.
+Add water to create a curry base and allow it to simmer for a few minutes.
+Place the boiled eggs in the gravy and cook briefly so they absorb the flavors.",10,20,easy,250,no,no,yes,no,no,no,no,no,medium,yes,yes,egg_curry,egg_curry,"eggs,curry"
+
+22,Kadhi Pakora,Indian,North Indian,Lunch,veg,"1 cup yogurt
+3 tbsp gram flour (besan)
+1 tsp turmeric powder
+1 tsp cumin seeds
+Oil for frying pakoras
+Salt to taste","Prepare pakoras by mixing gram flour, spices, and water into a thick batter and deep frying small portions.
+Whisk yogurt with gram flour, turmeric, and water to form a smooth mixture.
+Cook the yogurt mixture on low heat while stirring continuously until it thickens.
+Add the fried pakoras into the kadhi and simmer gently before serving.",20,25,medium,320,no,yes,no,no,no,no,no,no,mild,no,no,kadhi_pakora,kadhi_pakora,"yogurt,gravy"
+
+23,Vegetable Pulao,Indian,North Indian,Lunch,veg,"2 cups basmati rice
+1 cup mixed vegetables (carrot, beans, peas)
+1 onion sliced
+1 tsp garam masala
+2 tbsp cooking oil","Wash and soak the basmati rice for about 15 minutes.
+Heat oil in a pan and sauté onions and spices until fragrant.
+Add mixed vegetables and cook them lightly for a few minutes.
+Add rice and water, cover the pot, and cook until the rice becomes fluffy and fully cooked.",10,20,easy,280,no,no,no,no,no,no,no,no,mild,yes,yes,veg_pulao,veg_pulao,"rice,veg"
+
+24,Masala Dosa,Indian,South Indian,Breakfast,veg,"2 cups dosa batter
+3 boiled potatoes
+1 onion sliced
+2 tbsp cooking oil
+1 tsp mustard seeds
+Salt to taste","Prepare the potato masala by sautéing mustard seeds, onions, spices, and mashed potatoes.
+Heat a dosa tawa and spread a ladle of fermented dosa batter into a thin circle.
+Drizzle oil around the edges and cook until the dosa turns crisp.
+Place the potato masala inside the dosa, fold it, and serve hot.",20,20,medium,300,no,no,no,no,no,no,no,no,mild,no,no,masala_dosa,masala_dosa,"dosa,potato"
+
+25,Vegetable Manchurian,Indian,Indo-Chinese,Dinner,veg,"1 cup grated cabbage
+1/2 cup grated carrot
+3 tbsp all purpose flour
+2 tbsp soy sauce
+2 tbsp cooking oil
+1 tsp garlic paste","Mix cabbage, carrot, flour, salt, and spices to form small vegetable balls.
+Deep fry the vegetable balls in hot oil until crispy and golden brown.
+In another pan prepare the Manchurian sauce using soy sauce, garlic, and spices.
+Add the fried vegetable balls to the sauce and toss well before serving.",25,20,medium,350,yes,no,no,no,no,yes,no,no,medium,no,no,veg_manchurian,veg_manchurian,"fried,indo-chinese"
+
+26,Butter Chicken,Indian,North Indian,Dinner,non-veg,"500 g chicken pieces
+2 tomatoes pureed
+2 tbsp butter
+1/2 cup cream
+1 tsp garam masala
+Salt to taste","Marinate chicken with spices and yogurt for at least 30 minutes.
+Cook the marinated chicken in a pan until lightly browned.
+Prepare a rich tomato gravy using butter, tomato puree, and spices.
+Add chicken to the gravy and finish with cream before serving.",20,25,medium,480,no,yes,no,no,no,no,no,no,medium,no,no,butter_chicken,butter_chicken,"chicken,gravy"
+
+27,Dal Tadka,Indian,North Indian,Lunch,veg,"1 cup toor dal
+3 cloves garlic chopped
+2 tbsp ghee
+1 tsp cumin seeds
+1 tomato chopped
+Salt to taste","Wash and pressure cook the toor dal until soft and mushy.
+Mash the dal slightly and add water to achieve the desired consistency.
+Heat ghee in a small pan and sauté garlic, cumin seeds, and spices.
+Pour this tempering over the cooked dal and mix well before serving.",10,20,easy,220,no,no,no,no,no,no,no,no,mild,yes,yes,dal_tadka,dal_tadka,"lentils,protein"
+
+28,Malai Kofta,Indian,North Indian,Dinner,veg,"200 g paneer grated
+2 boiled potatoes mashed
+1/2 cup cream
+2 tomatoes pureed
+2 tbsp cooking oil
+1 tsp garam masala","Mix paneer, potatoes, and spices to form soft kofta balls.
+Deep fry the koftas in hot oil until golden and crisp.
+Prepare a rich gravy using tomato puree, cream, and spices.
+Add the fried koftas to the gravy just before serving so they remain soft.",25,25,hard,400,no,yes,no,no,no,no,no,no,mild,no,no,malai_kofta,malai_kofta,"paneer,curry"
+
+29,Jeera Rice,Indian,North Indian,Lunch,veg,"2 cups basmati rice
+1 tsp cumin seeds
+2 tbsp ghee
+Salt to taste
+Water as required","Wash and soak basmati rice for about 15 minutes.
+Cook the rice in water until soft and fluffy.
+Heat ghee in a pan and add cumin seeds until aromatic.
+Mix the cooked rice with the cumin tempering and serve warm.",5,15,easy,210,no,no,no,no,no,no,no,no,mild,yes,yes,jeera_rice,jeera_rice,"rice,cumin"
+
+30,Methi Thepla,Indian,Gujarati,Breakfast,veg,"2 cups whole wheat flour
+1 cup fresh fenugreek leaves chopped
+1 tsp turmeric powder
+1 tsp chili powder
+2 tbsp oil
+Salt to taste","Mix wheat flour with chopped fenugreek leaves and spices to form a soft dough.
+Add water gradually and knead until smooth.
+Roll small portions of the dough into thin flatbreads.
+Cook the theplas on a hot tawa with a little oil until golden on both sides.",15,15,easy,240,yes,no,no,no,no,no,no,no,mild,yes,yes,methi_thepla,methi_thepla,"flatbread,fenugreek"
+
+31,Dhokla,Indian,Gujarati,Snack,veg,"1 cup gram flour (besan)
+1/2 cup yogurt
+1 tsp turmeric powder
+1 tsp mustard seeds
+1 tbsp oil
+Salt to taste","Mix gram flour, yogurt, turmeric, salt, and water to form a smooth batter.
+Allow the batter to rest for about 10 minutes and add a little fruit salt or baking soda.
+Pour the batter into a greased steaming tray and steam for about 10–12 minutes.
+Prepare a tempering with mustard seeds and oil, pour it over the steamed dhokla, and cut into pieces.",15,15,easy,180,no,yes,no,no,no,no,no,no,mild,yes,yes,dhokla,dhokla,"steamed,snack"
+
+32,Pav Bhaji,Indian,Maharashtrian,Dinner,veg,"2 cups mixed vegetables (potato, peas, carrot)
+2 tbsp butter
+1 onion finely chopped
+2 tomatoes chopped
+1 tbsp pav bhaji masala
+4 pav bread buns","Boil and mash the mixed vegetables until soft.
+Heat butter in a pan and sauté onions and tomatoes with pav bhaji masala.
+Add the mashed vegetables and cook while mashing until a thick bhaji forms.
+Toast the pav buns with butter on a hot pan and serve them with the hot bhaji.",20,20,medium,450,yes,yes,no,no,no,no,no,no,medium,no,no,pav_bhaji,pav_bhaji,"streetfood,veg"
+
+33,Misal Pav,Indian,Maharashtrian,Breakfast,veg,"1 cup mixed sprouts
+1 onion finely chopped
+2 tomatoes chopped
+1 tbsp misal masala
+2 tbsp cooking oil
+4 pav bread buns","Cook the sprouts in water with salt until soft.
+Heat oil in a pan and sauté onions, tomatoes, and spices until aromatic.
+Add the cooked sprouts and simmer the curry to create the spicy misal gravy.
+Serve the hot misal topped with onions and farsan along with toasted pav.",20,25,medium,420,yes,no,no,no,no,no,no,no,hot,no,no,misal_pav,misal_pav,"spicy,streetfood"
+
+34,Vada Pav,Indian,Maharashtrian,Snack,veg,"3 boiled potatoes mashed
+1 cup gram flour
+1 tsp mustard seeds
+1 tsp chili powder
+4 pav buns
+Oil for frying","Prepare the potato filling by sautéing mustard seeds, spices, and mashed potatoes.
+Shape the potato mixture into small balls.
+Dip each ball into gram flour batter and deep fry until golden brown.
+Place the fried vada inside pav bread with chutneys and serve.",15,15,medium,350,yes,no,no,no,no,no,no,no,medium,no,no,vada_pav,vada_pav,"streetfood,fried"
+
+35,Pesarattu,Indian,South Indian,Breakfast,veg,"1 cup green gram soaked
+1/4 cup rice
+1 inch ginger
+1 green chili
+2 tbsp oil","Soak green gram and rice for several hours.
+Grind them with ginger and chili to form a thick batter.
+Spread the batter on a hot dosa pan into a thin circle.
+Drizzle oil and cook until crisp before serving.",15,15,easy,230,no,no,no,no,no,no,no,no,mild,yes,yes,pesarattu,pesarattu,"protein,dosa"
+
+36,Avial,Indian,Kerala,Lunch,veg,"2 cups mixed vegetables (carrot, beans, drumstick)
+1/2 cup grated coconut
+1/2 cup yogurt
+1 tsp cumin seeds
+2 tbsp coconut oil","Boil the mixed vegetables with salt and a little water until tender.
+Grind coconut and cumin seeds into a coarse paste.
+Add the coconut paste and yogurt to the vegetables and mix gently.
+Finish with coconut oil and curry leaves before serving.",15,20,medium,260,no,yes,no,no,no,no,no,no,mild,yes,yes,avial,avial,"kerala,veg"
+
+37,Appam,Indian,Kerala,Breakfast,veg,"2 cups rice soaked
+1/2 cup grated coconut
+1 tsp yeast
+1 tsp sugar
+Salt to taste","Grind soaked rice with coconut to make a smooth batter.
+Add yeast, sugar, and salt and allow the batter to ferment overnight.
+Heat an appam pan and pour a ladle of batter into the center.
+Swirl the pan to spread the batter and cook until soft with crispy edges.",20,15,medium,200,no,no,no,no,no,no,no,no,mild,yes,yes,appam,appam,"rice,bread"
+
+38,Chicken Stew,Indian,Kerala,Dinner,non-veg,"500 g chicken pieces
+1 cup coconut milk
+2 potatoes chopped
+1 onion sliced
+1 tsp black pepper
+2 tbsp coconut oil","Heat coconut oil in a pot and sauté onions and spices.
+Add chicken pieces and cook until lightly browned.
+Add potatoes and coconut milk and allow the stew to simmer.
+Cook until the chicken becomes tender and the gravy thickens.",20,25,medium,380,no,no,no,no,no,no,no,no,mild,yes,yes,chicken_stew,chicken_stew,"coconut,chicken"
+
+39,Kozhukattai,Indian,South Indian,Snack,veg,"1 cup rice flour
+1/2 cup grated coconut
+1/2 cup jaggery
+1 tsp cardamom powder
+Water as required","Prepare the filling by cooking coconut and jaggery together until thick.
+Boil water with a little salt and mix in rice flour to form a soft dough.
+Shape small dumplings and fill them with the sweet coconut mixture.
+Steam the dumplings for about 10 minutes until cooked.",20,15,medium,210,no,no,no,no,no,no,no,no,mild,yes,yes,kozhukattai,kozhukattai,"sweet,steamed"
+
+40,Rasgulla,Indian,East Indian,Dessert,veg,"1 liter milk
+2 tbsp lemon juice
+1 cup sugar
+3 cups water
+1 tsp cardamom","Boil the milk and add lemon juice to curdle it and form chenna.
+Strain the chenna and knead it until smooth.
+Shape the chenna into small balls.
+Cook the balls in boiling sugar syrup until they expand and become soft.",25,20,hard,200,no,yes,no,no,no,no,no,no,mild,no,no,rasgulla,rasgulla,"sweet,dessert"
+
+41,Sandesh,Indian,East Indian,Dessert,veg,"1 liter full fat milk
+2 tbsp lemon juice
+1/4 cup powdered sugar
+1/2 tsp cardamom powder
+1 tbsp chopped pistachios","Boil the milk in a pan and add lemon juice to curdle it and form fresh chenna.
+Strain the chenna through a cloth and squeeze out excess water.
+Knead the chenna with sugar and cardamom powder until smooth.
+Shape the mixture into small sweets and garnish with pistachios.",20,10,medium,180,no,yes,no,no,no,no,no,no,mild,no,no,sandesh,sandesh,"sweet,milk"
+
+42,Litti Chokha,Indian,Bihari,Lunch,veg,"2 cups wheat flour
+1 cup roasted sattu flour
+1 onion finely chopped
+1 tomato chopped
+2 tbsp mustard oil
+1 tsp cumin seeds","Prepare dough using wheat flour, salt, and water and keep it aside.
+Mix sattu flour with chopped onion, spices, mustard oil, and a little water for stuffing.
+Stuff the mixture inside dough balls and bake them in an oven or over charcoal until crisp.
+Serve the baked litti with mashed vegetable chokha made from roasted eggplant, tomato, and potato.",20,25,medium,360,yes,no,no,no,no,no,no,no,medium,yes,yes,litti_chokha,litti_chokha,"baked,traditional"
+
+43,Vegetable Korma,Indian,North Indian,Dinner,veg,"2 cups mixed vegetables
+1/2 cup cashew paste
+1/2 cup cream
+1 onion chopped
+2 tbsp cooking oil
+1 tsp garam masala","Heat oil in a pan and sauté onions and spices until fragrant.
+Add mixed vegetables and cook them lightly for a few minutes.
+Stir in cashew paste and cream to create a rich gravy.
+Simmer the curry until vegetables are tender and the sauce thickens.",20,25,medium,390,no,yes,no,yes,no,no,no,no,mild,no,no,veg_korma,veg_korma,"royal,curry"
+
+44,Chicken Tikka,Indian,North Indian,Snack,non-veg,"500 g boneless chicken pieces
+1/2 cup yogurt
+1 tbsp ginger garlic paste
+1 tsp chili powder
+1 tsp garam masala
+1 tbsp lemon juice","Marinate chicken pieces with yogurt, spices, ginger garlic paste, and lemon juice.
+Allow the chicken to marinate for at least 30 minutes.
+Thread the chicken pieces onto skewers and grill them in an oven or tandoor.
+Cook until the chicken becomes tender and slightly charred before serving.",20,15,medium,300,no,yes,no,no,no,no,no,no,medium,yes,yes,chicken_tikka,chicken_tikka,"grilled,protein"
+
+45,Hara Bhara Kabab,Indian,North Indian,Snack,veg,"1 cup spinach leaves
+1/2 cup green peas
+2 boiled potatoes
+1 tsp garam masala
+2 tbsp breadcrumbs
+2 tbsp cooking oil","Blanch spinach and grind it lightly with peas.
+Mix the paste with mashed potatoes, spices, and breadcrumbs.
+Shape the mixture into small flat patties.
+Shallow fry the patties in oil until crisp and golden on both sides.",15,15,medium,250,no,no,no,no,no,no,no,no,mild,yes,yes,hara_bhara_kabab,hara_bhara_kabab,"healthy,snack"
+
+46,Mutton Rogan Josh,Indian,Kashmiri,Dinner,non-veg,"500 g mutton pieces
+1 cup yogurt
+2 onions chopped
+2 tbsp cooking oil
+1 tsp Kashmiri chili powder
+1 tsp garam masala","Heat oil in a heavy pan and sauté onions and spices.
+Add mutton pieces and cook until they begin to brown.
+Stir in yogurt and cook slowly so the gravy thickens and flavors develop.
+Simmer the curry until the mutton becomes tender and aromatic.",25,40,hard,520,no,yes,no,no,no,no,no,yes,medium,no,no,rogan_josh,rogan_josh,"mutton,curry"
+
+47,Yakhni Pulao,Indian,Kashmiri,Lunch,non-veg,"2 cups basmati rice
+400 g mutton pieces
+1/2 cup yogurt
+1 onion sliced
+1 tsp whole spices
+2 tbsp ghee","Cook mutton with whole spices to prepare a flavorful stock.
+Wash and soak basmati rice for about 15 minutes.
+Heat ghee in a pot and sauté onions before adding the rice.
+Pour in the prepared stock and cook until the rice becomes fluffy.",20,30,medium,450,no,yes,no,no,no,no,no,yes,mild,no,no,yakhni_pulao,yakhni_pulao,"rice,mutton"
+
+48,Vegetable Cutlet,Indian,Indian,Snack,veg,"2 boiled potatoes
+1/2 cup grated carrot
+1/2 cup green peas
+1/2 cup breadcrumbs
+1 tsp garam masala
+2 tbsp oil","Mash potatoes and mix with carrot, peas, spices, and salt.
+Shape the mixture into small oval patties.
+Coat the patties with breadcrumbs for a crispy texture.
+Shallow fry them in oil until golden brown.",15,10,easy,220,yes,no,no,no,no,no,no,no,mild,yes,yes,veg_cutlet,veg_cutlet,"snack,fried"
+
+49,Sabudana Khichdi,Indian,Maharashtrian,Breakfast,veg,"1 cup sabudana soaked
+1 boiled potato chopped
+1/4 cup roasted peanuts
+1 tsp cumin seeds
+2 tbsp cooking oil
+Salt to taste","Soak sabudana in water for several hours until soft.
+Heat oil in a pan and sauté cumin seeds and peanuts.
+Add chopped potatoes and cook for a few minutes.
+Mix in the soaked sabudana and cook gently until fluffy.",15,15,medium,300,no,no,no,yes,no,no,no,no,mild,yes,yes,sabudana_khichdi,sabudana_khichdi,"fasting,light"
+
+50,Tandoori Chicken,Indian,North Indian,Dinner,non-veg,"600 g chicken pieces
+1/2 cup yogurt
+1 tbsp ginger garlic paste
+1 tsp chili powder
+1 tsp garam masala
+1 tbsp lemon juice","Make deep cuts on the chicken pieces and marinate with yogurt, spices, and lemon juice.
+Allow the chicken to marinate for at least one hour for best flavor.
+Place the chicken on a grill rack or baking tray.
+Roast in a hot oven or tandoor until the chicken becomes juicy and slightly charred.",20,30,medium,400,no,yes,no,no,no,no,no,no,medium,yes,yes,tandoori_chicken,tandoori_chicken,"roasted,chicken"
+
+51,Vegetable Khichdi,Indian,North Indian,Lunch,veg,"1 cup rice
+1/2 cup moong dal
+1 cup mixed vegetables (carrot, beans, peas)
+1 tbsp ghee
+1 tsp cumin seeds
+Salt to taste","Wash rice and moong dal thoroughly and soak them for about 10 minutes.
+Heat ghee in a pressure cooker and sauté cumin seeds and vegetables.
+Add rice and dal along with water and salt and mix well.
+Pressure cook until soft and slightly mushy before serving hot.",10,20,easy,260,no,no,no,no,no,no,no,no,mild,yes,yes,veg_khichdi,veg_khichdi,"comfort,healthy"
+
+52,Chicken Korma,Indian,North Indian,Dinner,non-veg,"500 g chicken pieces
+1/2 cup cashew paste
+1/2 cup cream
+1 onion finely chopped
+2 tbsp cooking oil
+1 tsp garam masala","Heat oil in a pan and sauté chopped onions until golden brown.
+Add chicken pieces and cook until lightly browned on all sides.
+Mix in cashew paste, cream, and spices to create a rich gravy.
+Simmer the curry until the chicken becomes tender and flavorful.",20,30,medium,460,no,yes,no,yes,no,no,no,no,mild,no,no,chicken_korma,chicken_korma,"chicken,gravy"
+
+53,Matar Paneer,Indian,North Indian,Dinner,veg,"200 g paneer cubes
+1 cup green peas
+2 tomatoes pureed
+1 onion chopped
+1 tsp garam masala
+2 tbsp oil","Heat oil in a pan and sauté onions and spices until fragrant.
+Add tomato puree and cook until the mixture thickens.
+Stir in green peas and cook for a few minutes.
+Add paneer cubes and simmer gently before serving.",15,20,medium,360,no,yes,no,no,no,no,no,no,medium,yes,yes,matar_paneer,matar_paneer,"paneer,peas"
+
+54,Stuffed Capsicum,Indian,North Indian,Dinner,veg,"4 capsicum peppers
+2 boiled potatoes mashed
+1 onion chopped
+1 tsp chili powder
+2 tbsp cooking oil
+Salt to taste","Cut the tops off the capsicums and remove the seeds.
+Prepare the stuffing by mixing mashed potatoes, onions, and spices.
+Fill each capsicum with the prepared stuffing mixture.
+Cook the stuffed capsicums in a pan with oil until tender.",15,20,medium,240,no,no,no,no,no,no,no,no,mild,yes,yes,stuffed_capsicum,stuffed_capsicum,"veg,stuffed"
+
+55,Kadai Chicken,Indian,North Indian,Dinner,non-veg,"500 g chicken pieces
+1 onion sliced
+2 tomatoes chopped
+1 bell pepper sliced
+2 tbsp oil
+1 tsp kadai masala","Heat oil in a kadai and sauté onions until translucent.
+Add chicken pieces and cook until lightly browned.
+Mix in tomatoes, bell peppers, and kadai masala.
+Cook until the chicken is fully cooked and coated in thick gravy.",20,25,medium,420,no,no,no,no,no,no,no,no,hot,no,no,kadai_chicken,kadai_chicken,"spicy,chicken"
+
+56,Baingan Bharta,Indian,North Indian,Lunch,veg,"1 large brinjal (eggplant)
+1 onion chopped
+2 tomatoes chopped
+2 tbsp cooking oil
+1 tsp cumin seeds
+Salt to taste","Roast the brinjal over an open flame until the skin is charred.
+Peel the skin and mash the soft pulp.
+Heat oil in a pan and sauté cumin seeds, onions, and tomatoes.
+Add the mashed brinjal and cook with spices for several minutes.",15,20,easy,230,no,no,no,no,no,no,no,no,mild,yes,yes,baingan_bharta,baingan_bharta,"brinjal,smoked"
+
+57,Vegetable Jalfrezi,Indian,North Indian,Dinner,veg,"2 cups mixed vegetables
+1 onion sliced
+2 tomatoes chopped
+1 bell pepper sliced
+2 tbsp cooking oil
+1 tsp garam masala","Heat oil in a pan and sauté onions until slightly golden.
+Add tomatoes and spices and cook until a thick sauce forms.
+Stir in mixed vegetables and bell peppers.
+Cook while stirring until the vegetables are tender but still slightly crisp.",15,20,medium,270,no,no,no,no,no,no,no,no,medium,yes,yes,veg_jalfrezi,veg_jalfrezi,"stirfry,veg"
+
+58,Chicken Chettinad,Indian,South Indian,Dinner,non-veg,"500 g chicken pieces
+1/2 cup grated coconut
+2 onions chopped
+2 tbsp cooking oil
+1 tbsp chettinad spice mix
+1 tsp curry leaves","Heat oil in a pan and sauté onions and curry leaves.
+Add chicken pieces and cook until they start to brown.
+Mix in roasted spices and coconut paste.
+Simmer the curry until the chicken becomes tender and flavorful.",20,30,medium,440,no,no,no,no,no,no,no,no,hot,no,no,chicken_chettinad,chicken_chettinad,"chettinad,spicy"
+
+59,Vegetable Stew,Indian,Kerala,Lunch,veg,"2 cups mixed vegetables
+1 cup coconut milk
+1 onion sliced
+1 potato chopped
+2 tbsp coconut oil
+1 tsp black pepper","Heat coconut oil in a pan and sauté onions and spices.
+Add vegetables and potatoes and cook lightly.
+Pour in coconut milk and allow the stew to simmer.
+Cook until vegetables are soft and the gravy thickens slightly.",15,25,medium,300,no,no,no,no,no,no,no,no,mild,yes,yes,veg_stew,veg_stew,"coconut,kerala"
+
+60,Beetroot Poriyal,Indian,South Indian,Lunch,veg,"2 cups grated beetroot
+1/2 cup grated coconut
+1 tsp mustard seeds
+2 tbsp cooking oil
+1 green chili chopped
+Salt to taste","Heat oil in a pan and add mustard seeds until they splutter.
+Add chopped green chili and grated beetroot.
+Cook while stirring until the beetroot becomes soft.
+Mix in grated coconut and cook briefly before serving.",10,15,easy,180,no,no,no,no,no,no,no,no,mild,yes,yes,beetroot_poriyal,beetroot_poriyal,"side,healthy"
+
+61,Curd Rice,Indian,South Indian,Lunch,veg,"2 cups cooked rice
+1 cup yogurt
+1 tsp mustard seeds
+1 tbsp chopped coriander
+1 tbsp cooking oil
+Salt to taste","Mash the cooked rice slightly while it is still warm.
+Add yogurt and salt to the rice and mix well until creamy.
+Heat oil in a pan and add mustard seeds until they splutter.
+Pour the tempering over the curd rice, garnish with coriander, and serve chilled.",5,10,easy,200,no,yes,no,no,no,no,no,no,mild,yes,yes,curd_rice,curd_rice,"cooling,light"
+
+62,Kothu Parotta,Indian,South Indian,Dinner,non-veg,"2 parottas chopped
+2 eggs
+1/2 cup cooked chicken pieces
+1 onion chopped
+1 tomato chopped
+2 tbsp cooking oil","Heat oil in a pan and sauté onions and tomatoes with spices.
+Add cooked chicken pieces and mix well.
+Break the eggs into the pan and scramble them with the mixture.
+Add chopped parotta and stir fry everything together until well combined.",15,15,medium,520,yes,no,yes,no,no,no,no,no,medium,no,no,kothu_parotta,kothu_parotta,"streetfood,mixed"
+
+63,Mushroom Masala,Indian,North Indian,Dinner,veg,"200 g mushrooms sliced
+1 onion chopped
+2 tomatoes pureed
+1 tsp garam masala
+2 tbsp cooking oil
+Salt to taste","Heat oil in a pan and sauté onions until soft.
+Add tomato puree and spices and cook until the mixture thickens.
+Stir in the sliced mushrooms and mix well.
+Cook until the mushrooms become tender and coated with the gravy.",15,20,medium,280,no,no,no,no,no,no,no,no,medium,yes,yes,mushroom_masala,mushroom_masala,"mushroom,curry"
+
+64,Chicken Pakora,Indian,North Indian,Snack,non-veg,"300 g chicken pieces
+1/2 cup gram flour
+1 tsp chili powder
+1 tsp turmeric powder
+Oil for frying
+Salt to taste","Mix gram flour, spices, and water to form a thick batter.
+Add chicken pieces to the batter and coat them evenly.
+Heat oil in a deep pan and drop the coated chicken pieces into the oil.
+Deep fry until golden brown and crispy before serving.",15,10,medium,330,no,no,no,no,no,no,no,no,hot,no,no,chicken_pakora,chicken_pakora,"fried,snack"
+
+65,Veg Hakka Noodles,Indian,Indo-Chinese,Dinner,veg,"200 g noodles
+1 cup shredded cabbage
+1 carrot julienned
+2 tbsp soy sauce
+1 tbsp garlic chopped
+2 tbsp cooking oil","Boil the noodles in salted water until just cooked and drain them.
+Heat oil in a wok and sauté garlic until aromatic.
+Add cabbage and carrot and stir fry on high heat.
+Add noodles and soy sauce and toss everything together.",10,15,easy,350,yes,no,no,no,no,yes,no,no,medium,no,no,veg_hakka_noodles,veg_hakka_noodles,"noodles,indo-chinese"
+
+66,Chicken Fried Rice,Indian,Indo-Chinese,Dinner,non-veg,"2 cups cooked rice
+1 cup diced chicken
+1/2 cup mixed vegetables
+2 tbsp soy sauce
+1 tbsp garlic chopped
+2 tbsp cooking oil","Heat oil in a wok and sauté garlic until fragrant.
+Add diced chicken and cook until tender.
+Stir in vegetables and cook briefly on high heat.
+Add cooked rice and soy sauce and toss until evenly mixed.",10,15,easy,400,no,no,no,no,no,yes,no,no,medium,no,no,chicken_fried_rice,chicken_fried_rice,"rice,indo-chinese"
+
+67,Veg Biryani,Indian,North Indian,Lunch,veg,"2 cups basmati rice
+1 cup mixed vegetables
+1/2 cup yogurt
+1 onion sliced
+2 tbsp cooking oil
+1 tsp biryani masala","Wash and soak the basmati rice for 20 minutes.
+Heat oil in a pan and sauté onions until golden brown.
+Add vegetables, yogurt, and spices and cook until fragrant.
+Layer the partially cooked rice over the vegetables and cook on low heat until done.",20,30,medium,380,yes,yes,no,no,no,no,no,no,medium,no,no,veg_biryani,veg_biryani,"rice,spicy"
+
+68,Fish Fry,Indian,South Indian,Snack,non-veg,"400 g fish fillets
+1 tsp chili powder
+1 tsp turmeric powder
+1 tbsp lemon juice
+2 tbsp cooking oil
+Salt to taste","Marinate the fish with chili powder, turmeric, lemon juice, and salt.
+Allow the fish to rest for about 15 minutes.
+Heat oil in a pan and place the marinated fish pieces.
+Shallow fry until both sides are crisp and golden.",10,10,easy,280,no,no,no,no,no,no,yes,no,medium,yes,yes,fish_fry,fish_fry,"seafood,fried"
+
+69,Pesarattu Upma,Indian,South Indian,Breakfast,veg,"1 cup green gram soaked
+1/2 cup semolina
+1 onion chopped
+1 tsp mustard seeds
+2 tbsp cooking oil
+Salt to taste","Prepare upma by roasting semolina and cooking it with water and spices.
+Grind soaked green gram into a thick batter.
+Spread the batter on a dosa pan to make pesarattu.
+Place a portion of upma inside the dosa and fold before serving.",15,15,medium,260,no,no,no,no,no,no,no,no,mild,yes,yes,pesarattu_upma,pesarattu_upma,"protein,combo"
+
+70,Gutti Vankaya,Indian,Andhra,Dinner,veg,"6 small brinjals
+1/4 cup roasted peanuts
+1 onion chopped
+2 tomatoes chopped
+2 tbsp cooking oil
+1 tsp chili powder","Make a spice paste using roasted peanuts and spices.
+Cut the brinjals partially and stuff them with the prepared mixture.
+Heat oil in a pan and sauté onions and tomatoes.
+Add the stuffed brinjals and cook until tender in the gravy.",20,25,medium,300,no,no,no,yes,no,no,no,no,medium,no,no,gutti_vankaya,gutti_vankaya,"stuffed,spicy"
+
+71,Pesarattu Masala,Indian,South Indian,Breakfast,veg,"1 cup green gram soaked
+1 small piece ginger
+1 green chili
+2 boiled potatoes mashed
+1 onion finely chopped
+1 tsp cumin seeds
+2 tbsp cooking oil
+Salt to taste","Soak green gram for several hours and grind it with ginger and chili to make a smooth batter.
+Heat oil in a pan and prepare potato masala by sautéing onions, cumin seeds, and mashed potatoes.
+Pour a ladle of pesarattu batter onto a hot dosa pan and spread it thinly.
+Place the potato masala in the center of the dosa, fold it, and cook until crisp before serving.",15,20,medium,290,no,no,no,no,no,no,no,no,mild,no,no,pesarattu_masala,pesarattu_masala,"dosa,stuffed"
+
+72,Kaju Katli,Indian,North Indian,Dessert,veg,"1 cup cashew nuts
+1/2 cup sugar
+1/4 cup water
+1/2 tsp cardamom powder
+1 tsp ghee","Grind the cashew nuts into a fine powder without releasing oil.
+Prepare a sugar syrup by heating sugar and water until slightly sticky.
+Add the cashew powder and cardamom to the syrup and cook until a soft dough forms.
+Spread the mixture on a greased plate, flatten it, and cut into diamond shapes.",20,10,medium,190,no,no,no,yes,no,no,no,no,mild,no,no,kaju_katli,kaju_katli,"sweet,cashew"
+
+73,Gajar Halwa,Indian,North Indian,Dessert,veg,"2 cups grated carrots
+2 cups milk
+1/2 cup sugar
+2 tbsp ghee
+1/4 cup chopped nuts
+1/2 tsp cardamom powder","Heat ghee in a heavy pan and sauté grated carrots for a few minutes.
+Add milk and cook on medium heat until the milk reduces.
+Stir in sugar and continue cooking until the mixture thickens.
+Add nuts and cardamom powder and cook briefly before serving warm.",15,25,medium,240,no,yes,no,no,no,no,no,no,mild,no,no,gajar_halwa,gajar_halwa,"sweet,carrot"
+
+74,Poha,Indian,Maharashtrian,Breakfast,veg,"2 cups flattened rice (poha)
+1 onion chopped
+1/4 cup roasted peanuts
+1 green chili chopped
+1 tsp mustard seeds
+2 tbsp cooking oil
+Salt to taste","Rinse poha gently in water and allow it to soften.
+Heat oil in a pan and sauté mustard seeds, onions, peanuts, and green chili.
+Add the softened poha along with salt and mix well.
+Cook briefly while stirring and garnish with coriander before serving.",10,10,easy,220,no,no,no,yes,no,no,no,no,mild,yes,yes,poha,poha,"breakfast,light"
+
+75,Bhel Puri,Indian,Maharashtrian,Snack,veg,"2 cups puffed rice
+1 onion finely chopped
+1 tomato chopped
+2 tbsp tamarind chutney
+2 tbsp green chutney
+1/2 cup sev
+1 tsp chaat masala","Combine puffed rice, chopped onion, and tomato in a large bowl.
+Add tamarind chutney and green chutney and mix gently.
+Sprinkle chaat masala and sev for extra flavor and crunch.
+Mix everything lightly and serve immediately while crisp.",5,5,easy,180,no,no,no,no,no,no,no,no,mild,yes,yes,bhel_puri,bhel_puri,"chaat,streetfood"
+
+76,Paniyaram,Indian,South Indian,Snack,veg,"1 cup dosa batter
+1 onion finely chopped
+1 green chili chopped
+1 tsp mustard seeds
+1 tbsp chopped coriander
+2 tbsp cooking oil","Heat oil in a paniyaram pan and add mustard seeds until they splutter.
+Mix onions, chilies, and coriander into the dosa batter.
+Pour small portions of batter into each cavity of the pan.
+Cook until golden on both sides and remove when crisp.",15,15,easy,220,no,no,no,no,no,no,no,no,mild,yes,yes,paniyaram,paniyaram,"snack,soft"
+
+77,Rava Kesari,Indian,South Indian,Dessert,veg,"1 cup semolina (rava)
+1 cup sugar
+3 tbsp ghee
+1/4 cup cashews
+1/2 tsp cardamom powder
+2 cups water","Heat ghee in a pan and fry cashews until golden.
+Add semolina and roast until aromatic.
+Pour in water and cook until the semolina absorbs the liquid.
+Add sugar and cardamom powder and cook until thick and glossy.",10,15,easy,260,yes,no,no,no,no,no,no,no,mild,no,no,rava_kesari,rava_kesari,"sweet,semolina"
+
+78,Tirunelveli Halwa,Indian,South Indian,Dessert,veg,"1 cup wheat milk extract
+1 cup sugar
+1/2 cup ghee
+1/4 cup cashews
+1/2 tsp cardamom powder","Heat wheat milk extract in a heavy pan and cook slowly.
+Add sugar and stir continuously until the mixture thickens.
+Gradually add ghee while stirring so the halwa becomes glossy.
+Garnish with fried cashews and cook until the mixture leaves the sides of the pan.",20,30,medium,300,yes,no,no,no,no,no,no,no,mild,no,no,tirunelveli_halwa,tirunelveli_halwa,"sweet,traditional"
+
+79,Kulfi,Indian,North Indian,Dessert,veg,"2 cups full cream milk
+1/4 cup sugar
+1/4 cup chopped pistachios
+1/2 tsp cardamom powder
+1 tbsp condensed milk","Boil milk in a pan and reduce it slowly until thick and creamy.
+Add sugar, condensed milk, and cardamom powder and mix well.
+Stir in chopped pistachios and cook for a few minutes.
+Pour the mixture into molds and freeze until firm.",15,30,medium,220,no,yes,no,yes,no,no,no,no,mild,no,no,kulfi,kulfi,"frozen,dessert"
+
+80,Jalebi,Indian,North Indian,Dessert,veg,"1 cup all purpose flour
+2 tbsp yogurt
+1 cup sugar
+1/2 tsp baking soda
+Oil for frying
+1/2 tsp cardamom powder","Prepare a batter using flour, yogurt, and water and allow it to ferment.
+Make a sugar syrup by boiling sugar and water with cardamom.
+Pour the batter into a piping bottle and pipe spiral shapes into hot oil.
+Fry until crisp and dip immediately into the warm sugar syrup.",20,20,hard,280,yes,yes,no,no,no,no,no,no,mild,no,no,jalebi,jalebi,"sweet,fried"
+
+81,Imarti,Indian,North Indian,Dessert,veg,"1 cup urad dal soaked
+1 cup sugar
+1/2 tsp cardamom powder
+Oil for deep frying
+2 cups water","Soak urad dal for several hours and grind it into a smooth thick batter.
+Prepare a sugar syrup by boiling sugar and water with cardamom powder.
+Pour the batter into a piping bag and pipe spiral shapes into hot oil.
+Deep fry until crisp and dip immediately into the warm sugar syrup.",20,25,hard,300,no,no,no,no,no,no,no,no,mild,no,no,imarti,imarti,"sweet,fried"
+
+82,Mysore Pak,Indian,South Indian,Dessert,veg,"1 cup gram flour (besan)
+1 cup sugar
+1/2 cup ghee
+1/2 cup water
+1/4 tsp cardamom powder","Heat ghee in a pan and roast gram flour until aromatic.
+Prepare a sugar syrup by boiling sugar and water until slightly thick.
+Add roasted gram flour slowly into the syrup while stirring continuously.
+Pour the mixture into a greased tray and allow it to set before cutting into pieces.",10,20,medium,310,no,no,no,no,no,no,no,no,mild,no,no,mysore_pak,mysore_pak,"sweet,ghee"
+
+83,Paneer Tikka,Indian,North Indian,Snack,veg,"250 g paneer cubes
+1/2 cup yogurt
+1 tsp chili powder
+1 tsp garam masala
+1 tbsp ginger garlic paste
+1 tbsp lemon juice","Mix yogurt with spices, ginger garlic paste, and lemon juice to prepare the marinade.
+Add paneer cubes and coat them well with the marinade.
+Thread the paneer pieces onto skewers and place them on a grill tray.
+Grill in an oven or pan until lightly charred and serve hot.",15,15,medium,280,no,yes,no,no,no,no,no,no,medium,yes,yes,paneer_tikka,paneer_tikka,"grilled,paneer"
+
+84,Chicken Shawarma,Indian,Middle Eastern,Dinner,non-veg,"400 g boneless chicken
+2 cloves garlic minced
+1/2 cup yogurt
+1 tsp paprika
+1 tbsp lemon juice
+2 flatbread wraps","Marinate chicken with yogurt, garlic, lemon juice, and spices for at least 30 minutes.
+Grill or pan cook the marinated chicken until fully cooked.
+Slice the cooked chicken into thin strips.
+Wrap the chicken in flatbread with vegetables and sauce before serving.",20,20,medium,450,no,yes,no,no,no,no,no,no,medium,no,no,chicken_shawarma,chicken_shawarma,"wrap,grilled"
+
+85,Mutton Keema,Indian,North Indian,Lunch,non-veg,"400 g minced mutton
+1 onion finely chopped
+2 tomatoes chopped
+1 tsp garam masala
+2 tbsp cooking oil
+Salt to taste","Heat oil in a pan and sauté chopped onions until golden.
+Add tomatoes and spices and cook until soft.
+Stir in the minced mutton and mix thoroughly.
+Cook on medium heat until the meat is tender and the masala thickens.",15,25,medium,480,no,no,no,no,no,no,no,yes,medium,no,no,mutton_keema,mutton_keema,"minced,spicy"
+
+86,Egg Bhurji,Indian,North Indian,Breakfast,non-veg,"4 eggs
+1 onion chopped
+1 tomato chopped
+1 green chili chopped
+1 tsp garam masala
+2 tbsp cooking oil","Heat oil in a pan and sauté onions and green chili.
+Add tomatoes and spices and cook until soft.
+Crack the eggs into the pan and scramble them with the masala.
+Cook until the eggs are fluffy and fully cooked.",10,10,easy,260,no,no,yes,no,no,no,no,no,medium,yes,yes,egg_bhurji,egg_bhurji,"scrambled,protein"
+
+87,Chicken Lollipop,Indian,Indo-Chinese,Snack,non-veg,"400 g chicken wings
+1/2 cup all purpose flour
+1 tsp chili powder
+1 tsp garlic paste
+2 tbsp soy sauce
+Oil for frying","Marinate chicken wings with garlic paste, soy sauce, and spices.
+Coat the chicken pieces in flour batter evenly.
+Deep fry the coated chicken pieces in hot oil until crispy.
+Toss the fried chicken in spicy sauce before serving.",15,15,medium,360,yes,no,no,no,no,no,no,no,hot,no,no,chicken_lollipop,chicken_lollipop,"fried,spicy"
+
+88,Paneer Fried Rice,Indian,Indo-Chinese,Dinner,veg,"2 cups cooked rice
+200 g paneer cubes
+1/2 cup mixed vegetables
+2 tbsp soy sauce
+1 tbsp garlic chopped
+2 tbsp cooking oil","Heat oil in a wok and sauté chopped garlic.
+Add paneer cubes and cook until lightly golden.
+Stir in vegetables and cook on high heat for a few minutes.
+Add cooked rice and soy sauce and toss everything together.",10,15,easy,390,no,no,no,no,no,yes,no,no,medium,no,no,paneer_fried_rice,paneer_fried_rice,"rice,indo-chinese"
+
+89,Gobi 65,Indian,South Indian,Snack,veg,"1 cup cauliflower florets
+1/2 cup gram flour
+1 tsp chili powder
+1 tsp ginger garlic paste
+Oil for frying
+Salt to taste","Blanch cauliflower florets briefly in hot water.
+Prepare a batter using gram flour, spices, and water.
+Dip the cauliflower pieces in batter and coat well.
+Deep fry until crispy and toss with curry leaves and spices.",15,15,medium,300,yes,no,no,no,no,no,no,no,hot,no,no,gobi_65,gobi_65,"fried,spicy"
+
+90,Veg Frankie,Indian,Indian,Snack,veg,"2 rotis
+1 cup mixed vegetables
+1 onion sliced
+1 tbsp tomato sauce
+1 tsp chili powder
+1 tbsp cooking oil","Heat oil in a pan and sauté vegetables with spices.
+Cook the mixture until the vegetables become tender.
+Place the cooked vegetables on a roti and add sauce and onions.
+Roll the roti tightly to form a frankie and serve hot.",10,10,easy,270,yes,no,no,no,no,no,no,no,mild,yes,yes,veg_frankie,veg_frankie,"roll,streetfood"
+
+91,Chicken Frankie,Indian,Indian,Snack,non-veg,"2 rotis
+200 g cooked chicken strips
+1 onion sliced
+1 tbsp tomato sauce
+1 tsp chili powder
+1 tbsp cooking oil
+Salt to taste","Heat oil in a pan and sauté the cooked chicken with chili powder and salt.
+Add sliced onions and cook briefly until slightly soft.
+Place the cooked chicken mixture onto a roti and drizzle tomato sauce over it.
+Roll the roti tightly to form a frankie and serve hot.",10,10,easy,320,yes,no,no,no,no,no,no,no,medium,no,no,chicken_frankie,chicken_frankie,"roll,protein"
+
+92,Kothamalli Rice,Indian,South Indian,Lunch,veg,"2 cups cooked rice
+1 cup fresh coriander leaves
+2 green chilies
+1 tsp mustard seeds
+2 tbsp cooking oil
+Salt to taste","Grind coriander leaves and green chilies into a smooth paste.
+Heat oil in a pan and add mustard seeds until they splutter.
+Add the coriander paste and cook for a few minutes until aromatic.
+Mix the cooked rice with the coriander mixture and serve warm.",10,10,easy,230,no,no,no,no,no,no,no,no,mild,yes,yes,kothamalli_rice,kothamalli_rice,"rice,herb"
+
+93,Thayir Vadai,Indian,South Indian,Snack,veg,"1 cup urad dal soaked
+2 cups yogurt
+1 tsp mustard seeds
+1 green chili chopped
+2 tbsp cooking oil
+Salt to taste","Grind soaked urad dal into a thick batter and shape small vadas.
+Deep fry the vadas in hot oil until golden and crisp.
+Whisk yogurt with salt until smooth and creamy.
+Soak the fried vadas in yogurt and garnish with tempering before serving.",15,10,medium,260,no,yes,no,no,no,no,no,no,mild,no,no,thayir_vadai,thayir_vadai,"curdsnack"
+
+94,Kuzhi Paniyaram,Indian,South Indian,Snack,veg,"1 cup dosa batter
+1 onion finely chopped
+1 green chili chopped
+1 tsp mustard seeds
+1 tbsp coriander leaves
+2 tbsp cooking oil","Heat oil in a paniyaram pan and add mustard seeds until they crackle.
+Mix chopped onions, chilies, and coriander into the batter.
+Pour small amounts of batter into the paniyaram cavities.
+Cook until golden on both sides and serve hot.",15,15,easy,210,no,no,no,no,no,no,no,no,mild,yes,yes,kuzhi_paniyaram,kuzhi_paniyaram,"soft,snack"
+
+95,Chicken Gravy,Indian,North Indian,Dinner,non-veg,"500 g chicken pieces
+1 onion finely chopped
+2 tomatoes pureed
+1 tsp garam masala
+2 tbsp cooking oil
+Salt to taste","Heat oil in a pan and sauté chopped onions until golden.
+Add tomato puree and spices and cook until thick.
+Add chicken pieces and mix well with the gravy.
+Cook until the chicken becomes tender and the gravy thickens.",15,25,medium,430,no,no,no,no,no,no,no,no,medium,no,no,chicken_gravy,chicken_gravy,"curry,chicken"
+
+96,Paneer Lababdar,Indian,North Indian,Dinner,veg,"250 g paneer cubes
+1 onion chopped
+2 tomatoes pureed
+1/2 cup cream
+1 tsp garam masala
+2 tbsp butter","Heat butter in a pan and sauté onions until soft.
+Add tomato puree and spices and cook until the sauce thickens.
+Add paneer cubes and simmer gently in the gravy.
+Stir in cream and cook briefly before serving.",20,25,medium,420,no,yes,no,no,no,no,no,no,medium,no,no,paneer_lababdar,paneer_lababdar,"rich,curry"
+
+97,Chicken Rezala,Indian,Mughlai,Dinner,non-veg,"500 g chicken pieces
+1/2 cup yogurt
+1/4 cup cashew paste
+1 onion paste
+1 tsp garam masala
+2 tbsp cooking oil","Heat oil in a pan and sauté onion paste until fragrant.
+Add chicken pieces and cook until lightly browned.
+Mix yogurt and cashew paste into the pan to create a creamy gravy.
+Simmer until the chicken becomes tender and the sauce thickens.",20,30,medium,480,no,yes,no,yes,no,no,no,no,mild,no,no,chicken_rezala,chicken_rezala,"mughlai,curry"
+
+98,Vegetable Frankie,Indian,Indian,Snack,veg,"2 rotis
+1 cup mixed vegetables
+1 onion sliced
+1 tbsp chili sauce
+1 tsp garam masala
+1 tbsp cooking oil","Heat oil in a pan and sauté mixed vegetables with spices.
+Cook until vegetables become tender but slightly crisp.
+Place the vegetable mixture onto a roti and add sliced onions and sauce.
+Roll the roti tightly and serve the frankie hot.",10,10,easy,260,yes,no,no,no,no,no,no,no,mild,yes,yes,vegetable_frankie,vegetable_frankie,"roll,veg"
+
+99,Mutton Sukka,Indian,South Indian,Dinner,non-veg,"500 g mutton pieces
+1/2 cup grated coconut
+2 onions chopped
+1 tbsp chili powder
+2 tbsp cooking oil
+1 tsp curry leaves","Cook mutton pieces with salt until tender.
+Heat oil in a pan and sauté onions and curry leaves.
+Add cooked mutton with spices and roast until dry.
+Mix in grated coconut and cook briefly before serving.",20,35,hard,550,no,no,no,no,no,no,no,yes,hot,no,no,mutton_sukka,mutton_sukka,"dry,spicy"
+
+100,Fruit Custard,Indian,Indian,Dessert,veg,"2 cups milk
+2 tbsp custard powder
+1/4 cup sugar
+1 cup mixed fruits (apple, banana, grapes)
+1/2 tsp vanilla essence","Heat milk in a pan and dissolve custard powder in a small portion of milk.
+Add the custard mixture to the boiling milk and stir continuously.
+Add sugar and cook until the custard thickens.
+Cool the custard slightly and mix in chopped fruits before serving.",10,10,easy,200,no,yes,no,no,no,no,no,no,mild,no,no,fruit_custard,fruit_custard,"dessert,fruits"
