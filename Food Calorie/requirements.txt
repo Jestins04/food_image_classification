@@ -7,3 +7,4 @@ torch
 torchvision
 scikit-learn
 opencv-python-headless
+mysql-connector-python
