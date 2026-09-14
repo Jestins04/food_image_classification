@@ -1,37 +1,37 @@
-Food Image Classification and Nutrition Prediction
+# Food Image Classification and Nutrition Prediction
 
-Overview
+## Overview
 
 Food Image Classification and Nutrition Prediction is a deep learning-based application that identifies food items from uploaded images and estimates their nutritional values. The system helps users understand the nutritional content of their meals by combining image classification with nutrition data from the USDA FoodData Central database.
 
-Objectives
+## Objectives
 
-- Classify food items from images using deep learning.
-- Predict nutritional information such as calories, carbohydrates, proteins, and fats.
-- Promote healthier dietary choices by providing quick nutrition insights.
-- Reduce manual food logging through automated food recognition.
+* Classify food items from images using deep learning.
+* Predict nutritional information such as calories, carbohydrates, proteins, and fats.
+* Promote healthier dietary choices by providing quick nutrition insights.
+* Reduce manual food logging through automated food recognition.
 
-Features
+## Features
 
-- Upload a food image for analysis.
-- Automatic food image classification.
-- Nutrition prediction using the USDA nutrition database.
-- Displays estimated nutritional values.
-- User-friendly interface for food analysis.
+* Upload a food image for analysis.
+* Automatic food image classification.
+* Nutrition prediction using the USDA nutrition database.
+* Displays estimated nutritional values.
+* User-friendly interface for food analysis.
 
-Technologies Used
+## Technologies Used
 
-- Python
-- TensorFlow
-- PyTorch
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- USDA FoodData Central Dataset
+* Python
+* TensorFlow
+* PyTorch
+* OpenCV
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+* USDA FoodData Central Dataset
 
-Project Workflow
+## Project Workflow
 
 1. Collect and preprocess the food image dataset.
 2. Train the deep learning model for food classification.
@@ -40,8 +40,9 @@ Project Workflow
 5. Retrieve nutritional information from the USDA dataset.
 6. Display the predicted nutritional values to the user.
 
-Repository Structure
+## Repository Structure
 
+```text
 Food-Image-Classification/
 ├── dataset/
 ├── models/
@@ -51,48 +52,53 @@ Food-Image-Classification/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
-Installation
+## Installation
 
+```bash
 git clone https://github.com/Jestins04/food_image_classification.git
 cd food_image_classification
 pip install -r requirements.txt
+```
 
-Usage
+## Usage
 
 Run the application:
 
+```bash
 python app.py
+```
 
 Upload a food image and view the predicted food category along with its estimated nutritional values.
 
-Future Enhancements
+## Future Enhancements
 
-- Improve prediction accuracy with larger datasets.
-- Support multiple food items in a single image.
-- Real-time mobile application integration.
-- Personalized dietary recommendations.
-- Barcode and meal tracking support.
+* Improve prediction accuracy with larger datasets.
+* Support multiple food items in a single image.
+* Real-time mobile application integration.
+* Personalized dietary recommendations.
+* Barcode and meal tracking support.
 
-Team Project
+## Team Project
 
 This project was developed collaboratively as part of a college team project.
 
-My Contributions
+### My Contributions
 
-- Assisted in the development and implementation of the Food Image Classification module.
-- Contributed to nutrition prediction using the USDA nutrition database.
-- Participated in data preprocessing, model evaluation, testing, and documentation.
-- Collaborated with team members during project development and integration.
+* Assisted in the development and implementation of the Food Image Classification module.
+* Contributed to nutrition prediction using the USDA nutrition database.
+* Participated in data preprocessing, model evaluation, testing, and documentation.
+* Collaborated with team members during project development and integration.
 
-Acknowledgements
+## Acknowledgements
 
-- USDA FoodData Central
-- TensorFlow
-- PyTorch
-- OpenCV
-- Python Open Source Community's
+* USDA FoodData Central
+* TensorFlow
+* PyTorch
+* OpenCV
+* Python Open Source Community
 
-License
+## License
 
 This project is intended for educational and academic purposes.
